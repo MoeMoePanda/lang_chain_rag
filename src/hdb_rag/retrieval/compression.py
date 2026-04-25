@@ -1,8 +1,8 @@
 """Wrap a retriever in ContextualCompressionRetriever with LLM-listwise rerank."""
 from __future__ import annotations
 
-from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import LLMListwiseRerank
+from langchain_classic.retrievers import ContextualCompressionRetriever
+from langchain_classic.retrievers.document_compressors import LLMListwiseRerank
 from langchain_core.language_models import BaseChatModel
 from langchain_core.retrievers import BaseRetriever
 

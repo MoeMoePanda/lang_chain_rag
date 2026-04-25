@@ -1,7 +1,7 @@
 """Wrap a retriever in MultiQueryRetriever for paraphrase expansion."""
 from __future__ import annotations
 
-from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain_classic.retrievers.multi_query import MultiQueryRetriever
 from langchain_core.language_models import BaseChatModel
 from langchain_core.retrievers import BaseRetriever
 
