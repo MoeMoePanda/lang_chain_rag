@@ -1,6 +1,14 @@
-"""HTML and PDF loaders. Returns plain text; the caller wraps in Document."""
+"""HTML and PDF loaders. Returns plain text; the caller wraps in Document.
+
+HDB's pages are Next.js (Sitecore-managed). The visible HTML body is a thin
+shell; the actual rules content lives inside the `__NEXT_DATA__` JSON blob in
+fields like `bodyContentVal`. We extract both visible text *and* that JSON
+content to capture the page in full.
+"""
 from __future__ import annotations
 
+import json
+import re
 from pathlib import Path
 
 import requests
@@ -9,15 +17,77 @@ from pypdf import PdfReader
 
 
 STRIP_TAGS = ("nav", "footer", "script", "style", "header", "aside")
+_NEXT_DATA_RE = re.compile(
+    r'<script[^>]*id="__NEXT_DATA__"[^>]*>(.+?)</script>', re.DOTALL,
+)
+# Field keys in the __NEXT_DATA__ tree that hold substantive page content
+_CONTENT_KEYS = (
+    "bodyContentVal",
+    "pageDescrition",  # HDB's typo, kept as-is
+    "metaDescription",
+    "descVal",
+)
 
 
-def _clean_html(html: str) -> str:
+def _strip_html(fragment: str) -> str:
+    return BeautifulSoup(fragment, "html.parser").get_text(separator=" ").strip()
+
+
+def _next_data_text(html: str) -> str:
+    """Pull rich content out of a Next.js __NEXT_DATA__ JSON blob."""
+    m = _NEXT_DATA_RE.search(html)
+    if not m:
+        return ""
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return ""
+
+    parts: list[str] = []
+    seen: set[str] = set()  # de-dupe identical strings (Sitecore embeds a few)
+
+    def push(s: str) -> None:
+        if not s:
+            return
+        cleaned = _strip_html(s) if "<" in s else s.strip()
+        if not cleaned or cleaned in seen:
+            return
+        seen.add(cleaned)
+        parts.append(cleaned)
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if k in _CONTENT_KEYS:
+                    if isinstance(v, str):
+                        push(v)
+                    elif isinstance(v, dict) and isinstance(v.get("value"), str):
+                        push(v["value"])
+                walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                walk(v)
+
+    walk(data)
+    return "\n\n".join(parts)
+
+
+def _visible_text(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(STRIP_TAGS):
         tag.decompose()
     text = soup.get_text(separator="\n")
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     return "\n".join(lines)
+
+
+def _clean_html(html: str) -> str:
+    """Combine the visible body text with content extracted from __NEXT_DATA__."""
+    visible = _visible_text(html)
+    next_data = _next_data_text(html)
+    if next_data and visible:
+        return visible + "\n\n" + next_data
+    return next_data or visible
 
 
 def load_html_file(path: Path) -> str:

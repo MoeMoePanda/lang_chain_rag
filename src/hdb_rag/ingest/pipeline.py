@@ -9,6 +9,7 @@ from langchain_core.documents import Document
 from tqdm import tqdm
 
 from hdb_rag import config
+from hdb_rag.discovery.politeness import PolitenessGate
 from hdb_rag.ingest.loaders import (
     download_pdf,
     load_html_url,
@@ -23,7 +24,7 @@ def _load_sources(path: Path) -> list[dict]:
     return data.get("sources", [])
 
 
-def _doc_from_source(source: dict, ingested_at: str) -> list[Document]:
+def _doc_from_source(source: dict, ingested_at: str, gate: PolitenessGate) -> list[Document]:
     base_meta = {
         "source_url": source["url"],
         "title": source["title"],
@@ -32,9 +33,15 @@ def _doc_from_source(source: dict, ingested_at: str) -> list[Document]:
         "ingested_at": ingested_at,
     }
     if source["type"] == "html":
+        if not gate.can_fetch(source["url"]):
+            return []
+        gate.wait_if_needed()
         text = load_html_url(source["url"], user_agent=config.DISCOVERY["user_agent"])
         return [Document(page_content=text, metadata={**base_meta, "page_number": None})]
     if source["type"] == "pdf":
+        if not gate.can_fetch(source["url"]):
+            return []
+        gate.wait_if_needed()
         path = download_pdf(source["url"], config.PDF_CACHE, user_agent=config.DISCOVERY["user_agent"])
         pages = load_pdf(path)
         if not pages:
@@ -47,15 +54,23 @@ def _doc_from_source(source: dict, ingested_at: str) -> list[Document]:
     raise ValueError(f"Unknown source type: {source['type']}")
 
 
-def run_ingest() -> None:
+def run_ingest(limit: int | None = None) -> None:
     ingested_at = datetime.now(timezone.utc).isoformat()
     sources = _load_sources(config.SOURCES_YAML)
+    if limit is not None:
+        sources = sources[:limit]
+        print(f"⚠️  Limited run: {limit} sources")
     print(f"Loaded {len(sources)} sources from {config.SOURCES_YAML}")
+
+    gate = PolitenessGate(
+        user_agent=config.DISCOVERY["user_agent"],
+        request_delay=config.DISCOVERY["request_delay_seconds"],
+    )
 
     docs: list[Document] = []
     for src in tqdm(sources, desc="loading"):
         try:
-            docs.extend(_doc_from_source(src, ingested_at))
+            docs.extend(_doc_from_source(src, ingested_at, gate))
         except Exception as e:
             print(f"  ⚠️  failed: {src['url']} — {e}")
 
