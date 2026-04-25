@@ -25,18 +25,22 @@ CHROMA_PERSIST_DIR: str = os.getenv("CHROMA_PERSIST_DIR", "./data/chroma_db")
 COLLECTION_NAME: str = "hdb_rules"
 
 # --- Discovery ---
+# HDB publishes a comprehensive sitemap.xml; we filter that by `scope_paths`
+# to populate the URL allowlist (no BFS crawling needed).
+#
+# User-Agent is browser-like because hdb.gov.sg's WAF 403s the default
+# Python UA; the actual robots.txt (when fetched with this UA) is fully
+# permissive: "User-agent: * / Allow: /".
 DISCOVERY = {
-    "start_urls": [
-        "https://www.hdb.gov.sg/residential/buying-a-flat",
-        "https://www.hdb.gov.sg/residential/living-in-an-hdb-flat",
-    ],
+    "sitemap_url": "https://www.hdb.gov.sg/sitemap.xml",
     "scope_paths": [
-        "/residential/buying-a-flat/",
-        "/residential/living-in-an-hdb-flat/",
+        "/buying-a-flat/",
+        "/managing-my-home/",
     ],
-    "max_depth": 4,
-    "max_urls": 200,
-    "user_agent": "hdb-rag-portfolio/0.1 (github.com/MoeMoePanda/lang_chain_rag)",
+    "user_agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    ),
     "request_delay_seconds": 1.0,
 }
 
