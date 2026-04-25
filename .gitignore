@@ -1,0 +1,23 @@
+# Claude Code session state
+.claude/
+
+# Internal planning docs (kept local; not pushed)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Project artifacts (committed inputs only; outputs are reproducible)
+data/chroma_db/
+data/pdfs/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
