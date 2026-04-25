@@ -1,0 +1,1557 @@
+sources:
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats
+  type: html
+  category: buying
+  title: Bto Sbf And Open Booking Of Flats
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/conditions-after-buying-a-new-flat
+  type: html
+  category: buying
+  title: Conditions After Buying A New Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat
+  type: html
+  category: buying
+  title: Finding A New Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/design-features
+  type: html
+  category: buying
+  title: Design Features
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/standard-plus-and-prime-housing-framework
+  type: html
+  category: buying
+  title: Standard Plus And Prime Housing Framework
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/types-of-flats
+  type: html
+  category: buying
+  title: Types Of Flats
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/types-of-flats/community-care-apartments
+  type: html
+  category: buying
+  title: Community Care Apartments
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/finding-a-new-flat/types-of-flats/shortlease-2room-flexi-flat
+  type: html
+  category: buying
+  title: Shortlease 2Room Flexi Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat
+  type: html
+  category: buying
+  title: Process For Buying A New Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/application
+  type: html
+  category: buying
+  title: Application
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/application/frequently-asked-questions-on-sales-exercises
+  type: html
+  category: buying
+  title: Frequently Asked Questions On Sales Exercises
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/application/fresh-start-housing-scheme
+  type: html
+  category: buying
+  title: Fresh Start Housing Scheme
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/application/priority-schemes
+  type: html
+  category: buying
+  title: Priority Schemes
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/booking-of-flat
+  type: html
+  category: buying
+  title: Booking Of Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/key-collection
+  type: html
+  category: buying
+  title: Key Collection
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/modes-of-sales
+  type: html
+  category: buying
+  title: Modes Of Sales
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/overview
+  type: html
+  category: buying
+  title: Overview
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/overview/plan-finances
+  type: html
+  category: buying
+  title: Plan Finances
+- url: https://www.hdb.gov.sg/buying-a-flat/bto-sbf-and-open-booking-of-flats/process-for-buying-a-new-flat/sign-agreement-for-lease
+  type: html
+  category: buying
+  title: Sign Agreement For Lease
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums
+  type: html
+  category: buying
+  title: Executive Condominiums
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums/conditions-after-buying-an-ec
+  type: html
+  category: buying
+  title: Conditions After Buying An Ec
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums/cpf-housing-grant
+  type: html
+  category: buying
+  title: Cpf Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums/eligibility
+  type: html
+  category: buying
+  title: Eligibility
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums/finding-an-ec
+  type: html
+  category: buying
+  title: Finding An Ec
+- url: https://www.hdb.gov.sg/buying-a-flat/executive-condominiums/process-for-buying-an-ec
+  type: html
+  category: buying
+  title: Process For Buying An Ec
+- url: https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase
+  type: html
+  category: buying
+  title: Financial Planning For A Flat Purchase
+- url: https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase/ability-to-pay
+  type: html
+  category: buying
+  title: Ability To Pay
+- url: https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase/budget-for-a-flat
+  type: html
+  category: buying
+  title: Budget For A Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/financial-planning-for-a-flat-purchase/credit-to-finance-a-flat-purchase
+  type: html
+  category: buying
+  title: Credit To Finance A Flat Purchase
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility
+  type: html
+  category: buying
+  title: Flat Grant And Loan Eligibility
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter
+  type: html
+  category: buying
+  title: Application For An Hdb Flat Eligibility Hfe Letter
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/application-for-an-hdb-flat-eligibility-hfe-letter/income-guidelines-and-documents
+  type: html
+  category: buying
+  title: Income Guidelines And Documents
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families
+  type: html
+  category: buying
+  title: Couples And Families
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families/cpf-housing-grants
+  type: html
+  category: buying
+  title: Cpf Housing Grants
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families/enhanced-cpf-housing-grant
+  type: html
+  category: buying
+  title: Enhanced Cpf Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families/proximity-housing-grant
+  type: html
+  category: buying
+  title: Proximity Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families/stepup-cpf-housing-grant
+  type: html
+  category: buying
+  title: Stepup Cpf Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/housing-loan
+  type: html
+  category: buying
+  title: Housing Loan
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/housing-loan/housing-loan-from-financial-institutions
+  type: html
+  category: buying
+  title: Housing Loan From Financial Institutions
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/housing-loan/housing-loan-from-hdb
+  type: html
+  category: buying
+  title: Housing Loan From Hdb
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/seniors
+  type: html
+  category: buying
+  title: Seniors
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/singles
+  type: html
+  category: buying
+  title: Singles
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/singles/cpf-housing-grant
+  type: html
+  category: buying
+  title: Cpf Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/singles/enhanced-cpf-housing-grant
+  type: html
+  category: buying
+  title: Enhanced Cpf Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/singles/proximity-housing-grant
+  type: html
+  category: buying
+  title: Proximity Housing Grant
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats
+  type: html
+  category: buying
+  title: Resale Flats
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/conditions-after-buying-a-resale-flat
+  type: html
+  category: buying
+  title: Conditions After Buying A Resale Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/finding-a-resale-flat
+  type: html
+  category: buying
+  title: Finding A Resale Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat
+  type: html
+  category: buying
+  title: Process For Buying A Resale Flat
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/option-to-purchase
+  type: html
+  category: buying
+  title: Option To Purchase
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/option-to-purchase/request-for-value
+  type: html
+  category: buying
+  title: Request For Value
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/overview
+  type: html
+  category: buying
+  title: Overview
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-application
+  type: html
+  category: buying
+  title: Resale Flat Application
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-application/application-process
+  type: html
+  category: buying
+  title: Application Process
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-application/approval-of-application
+  type: html
+  category: buying
+  title: Approval Of Application
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-application/request-for-enhanced-contra-facility
+  type: html
+  category: buying
+  title: Request For Enhanced Contra Facility
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-completion
+  type: html
+  category: buying
+  title: Resale Flat Completion
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning
+  type: html
+  category: buying
+  title: Resale Flat Planning
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning/eip-and-spr-quota
+  type: html
+  category: buying
+  title: Eip And Spr Quota
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning/managing-the-flat-purchase
+  type: html
+  category: buying
+  title: Managing The Flat Purchase
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning/mode-of-financing
+  type: html
+  category: buying
+  title: Mode Of Financing
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning/overview
+  type: html
+  category: buying
+  title: Overview
+- url: https://www.hdb.gov.sg/buying-a-flat/resale-flats/process-for-buying-a-resale-flat/resale-flat-planning/resale-seminars
+  type: html
+  category: buying
+  title: Resale Seminars
+- url: https://www.hdb.gov.sg/managing-my-home/finances
+  type: html
+  category: living
+  title: Finances
+- url: https://www.hdb.gov.sg/managing-my-home/finances/citizen-topup
+  type: html
+  category: living
+  title: Citizen Topup
+- url: https://www.hdb.gov.sg/managing-my-home/finances/cpf-rules-and-early-repayment
+  type: html
+  category: living
+  title: Cpf Rules And Early Repayment
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters
+  type: html
+  category: living
+  title: Loan Matters
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/financial-assistance-measures
+  type: html
+  category: living
+  title: Financial Assistance Measures
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/interest-rate
+  type: html
+  category: living
+  title: Interest Rate
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/payments
+  type: html
+  category: living
+  title: Payments
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/refinance
+  type: html
+  category: living
+  title: Refinance
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/repayment-period
+  type: html
+  category: living
+  title: Repayment Period
+- url: https://www.hdb.gov.sg/managing-my-home/finances/loan-matters/statement-of-account
+  type: html
+  category: living
+  title: Statement Of Account
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership
+  type: html
+  category: living
+  title: Home Ownership
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/acquiring-private-property
+  type: html
+  category: living
+  title: Acquiring Private Property
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers
+  type: html
+  category: living
+  title: Change Of Flat Owners Or Occupiers
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale
+  type: html
+  category: living
+  title: Change In Flat Ownership Not Through A Sale
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/additional-information
+  type: html
+  category: living
+  title: Additional Information
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/conditions-after-change-in-flat-ownership
+  type: html
+  category: living
+  title: Conditions After Change In Flat Ownership
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/eligibility
+  type: html
+  category: living
+  title: Eligibility
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/guide-for-change-in-flat-ownership
+  type: html
+  category: living
+  title: Guide For Change In Flat Ownership
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-flat-ownership-not-through-a-sale/manner-of-holding
+  type: html
+  category: living
+  title: Manner Of Holding
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-in-manner-of-holding-or-ownership-proportion
+  type: html
+  category: living
+  title: Change In Manner Of Holding Or Ownership Proportion
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-of-flat-occupiers
+  type: html
+  category: living
+  title: Change Of Flat Occupiers
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-of-flat-occupiers/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/change-of-flat-occupiers/eligibility
+  type: html
+  category: living
+  title: Eligibility
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/resale-of-partshare
+  type: html
+  category: living
+  title: Resale Of Partshare
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/change-of-flat-owners-or-occupiers/retain-flat-following-life-events
+  type: html
+  category: living
+  title: Retain Flat Following Life Events
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/checklist-for-moving-into-flat
+  type: html
+  category: living
+  title: Checklist For Moving Into Flat
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/fire-insurance
+  type: html
+  category: living
+  title: Fire Insurance
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/home-business
+  type: html
+  category: living
+  title: Home Business
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/home-business/home-office-scheme
+  type: html
+  category: living
+  title: Home Office Scheme
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/home-business/home-office-scheme/apply-and-manage-registration
+  type: html
+  category: living
+  title: Apply And Manage Registration
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/home-business/home-office-scheme/conditions-of-use
+  type: html
+  category: living
+  title: Conditions Of Use
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/home-business/homebased-business-scheme
+  type: html
+  category: living
+  title: Homebased Business Scheme
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/installing-smart-door-devices-and-cctv-cameras
+  type: html
+  category: living
+  title: Installing Smart Door Devices And Cctv Cameras
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/keeping-pets
+  type: html
+  category: living
+  title: Keeping Pets
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/purchasing-recess-area
+  type: html
+  category: living
+  title: Purchasing Recess Area
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms
+  type: html
+  category: living
+  title: Renting Out A Flat Or Bedrooms
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-a-flat
+  type: html
+  category: living
+  title: Renting Out A Flat
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-a-flat/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-a-flat/eligibility
+  type: html
+  category: living
+  title: Eligibility
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-a-flat/regulations
+  type: html
+  category: living
+  title: Regulations
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-a-flat/rental-statistics
+  type: html
+  category: living
+  title: Rental Statistics
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-bedrooms
+  type: html
+  category: living
+  title: Renting Out Bedrooms
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-bedrooms/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-bedrooms/eligibility
+  type: html
+  category: living
+  title: Eligibility
+- url: https://www.hdb.gov.sg/managing-my-home/home-ownership/renting-out-a-flat-or-bedrooms/renting-out-bedrooms/regulations
+  type: html
+  category: living
+  title: Regulations
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community
+  type: html
+  category: living
+  title: Living In My Community
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/being-a-good-neighbour
+  type: html
+  category: living
+  title: Being A Good Neighbour
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/being-a-good-neighbour/good-neighbours-movement
+  type: html
+  category: living
+  title: Good Neighbours Movement
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/being-a-good-neighbour/keeping-killer-litter-away
+  type: html
+  category: living
+  title: Keeping Killer Litter Away
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/being-a-good-neighbour/managing-neighbour-disputes
+  type: html
+  category: living
+  title: Managing Neighbour Disputes
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/being-a-good-neighbour/tips-on-neighbourliness
+  type: html
+  category: living
+  title: Tips On Neighbourliness
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood
+  type: html
+  category: living
+  title: Enlivening My Neighbourhood
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/community-participatory-projects
+  type: html
+  category: living
+  title: Community Participatory Projects
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/friends-of-our-heartlands-network
+  type: html
+  category: living
+  title: Friends Of Our Heartlands Network
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/lively-places-programme
+  type: html
+  category: living
+  title: Lively Places Programme
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/lively-places-programme/lively-places-fund-and-challenge
+  type: html
+  category: living
+  title: Lively Places Fund And Challenge
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/programmes-and-resources-for-schools
+  type: html
+  category: living
+  title: Programmes And Resources For Schools
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/programmes-and-resources-for-schools/educational-resources-for-schools
+  type: html
+  category: living
+  title: Educational Resources For Schools
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/programmes-and-resources-for-schools/ohyay-programme
+  type: html
+  category: living
+  title: Ohyay Programme
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/programmes-and-resources-for-schools/sphere
+  type: html
+  category: living
+  title: Sphere
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/enlivening-my-neighbourhood/white-spaces
+  type: html
+  category: living
+  title: White Spaces
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood
+  type: html
+  category: living
+  title: Exploring My Neighbourhood
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town
+  type: html
+  category: living
+  title: Explore My Town
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio
+  type: html
+  category: living
+  title: Ang Mo Kio
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/ang-mo-kio-town-centre
+  type: html
+  category: living
+  title: Ang Mo Kio Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/cheng-san-centre
+  type: html
+  category: living
+  title: Cheng San Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/chong-boon-centre
+  type: html
+  category: living
+  title: Chong Boon Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/kebun-baru-mall
+  type: html
+  category: living
+  title: Kebun Baru Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/mayflower-shopping-and-food-centre
+  type: html
+  category: living
+  title: Mayflower Shopping And Food Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/teck-ghee-court
+  type: html
+  category: living
+  title: Teck Ghee Court
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/teck-ghee-square
+  type: html
+  category: living
+  title: Teck Ghee Square
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/ang-mo-kio/yio-chu-kang-view
+  type: html
+  category: living
+  title: Yio Chu Kang View
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok
+  type: html
+  category: living
+  title: Bedok
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/bedok-town-centre
+  type: html
+  category: living
+  title: Bedok Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-16-18-bedok-south-road
+  type: html
+  category: living
+  title: Blocks 16 18 Bedok South Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-25a-32a-chai-chee-road
+  type: html
+  category: living
+  title: Blocks 25A 32A Chai Chee Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-509-511a-bedok-north-street-3
+  type: html
+  category: living
+  title: Blocks 509 511A Bedok North Street 3
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-537-539a-bedok-north-street-3
+  type: html
+  category: living
+  title: Blocks 537 539A Bedok North Street 3
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-630-632-bedok-reservoir-road
+  type: html
+  category: living
+  title: Blocks 630 632 Bedok Reservoir Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/blocks-84-89-bedok-north-street-4
+  type: html
+  category: living
+  title: Blocks 84 89 Bedok North Street 4
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/reservoir-village
+  type: html
+  category: living
+  title: Reservoir Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bedok/the-marketplace58
+  type: html
+  category: living
+  title: The Marketplace58
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bishan
+  type: html
+  category: living
+  title: Bishan
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bishan/bishan-north-shopping-mall
+  type: html
+  category: living
+  title: Bishan North Shopping Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bishan/bishan-town-centre
+  type: html
+  category: living
+  title: Bishan Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bishan/blocks-150-152a-bishan-street-11
+  type: html
+  category: living
+  title: Blocks 150 152A Bishan Street 11
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-batok
+  type: html
+  category: living
+  title: Bukit Batok
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-batok/bukit-batok-east-point
+  type: html
+  category: living
+  title: Bukit Batok East Point
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-batok/bukit-batok-town-centre
+  type: html
+  category: living
+  title: Bukit Batok Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-batok/bukit-batok-west-shopping-centre
+  type: html
+  category: living
+  title: Bukit Batok West Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-batok/bukit-gombak-neighbourhood-centre
+  type: html
+  category: living
+  title: Bukit Gombak Neighbourhood Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah
+  type: html
+  category: living
+  title: Bukit Merah
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/alexandra-village
+  type: html
+  category: living
+  title: Alexandra Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-111-112-jalan-bukit-merah
+  type: html
+  category: living
+  title: Blocks 111 112 Jalan Bukit Merah
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-115-116-bukit-merah-view
+  type: html
+  category: living
+  title: Blocks 115 116 Bukit Merah View
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-34-40-beo-crescent
+  type: html
+  category: living
+  title: Blocks 34 40 Beo Crescent
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-35-38-telok-blangah-rise
+  type: html
+  category: living
+  title: Blocks 35 38 Telok Blangah Rise
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-55-59-lengkok-bahru
+  type: html
+  category: living
+  title: Blocks 55 59 Lengkok Bahru
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-78-86-redhill-lane
+  type: html
+  category: living
+  title: Blocks 78 86 Redhill Lane
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/blocks-8-12-telok-blangah-crescent
+  type: html
+  category: living
+  title: Blocks 8 12 Telok Blangah Crescent
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/brickworks-estate
+  type: html
+  category: living
+  title: Brickworks Estate
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/bukit-merah-town-centre
+  type: html
+  category: living
+  title: Bukit Merah Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/connection-one
+  type: html
+  category: living
+  title: Connection One
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/depot-heights-shopping-centre
+  type: html
+  category: living
+  title: Depot Heights Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-merah/telok-blangah-mall
+  type: html
+  category: living
+  title: Telok Blangah Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-panjang
+  type: html
+  category: living
+  title: Bukit Panjang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-panjang/bukit-panjang-neighbourhood-centre
+  type: html
+  category: living
+  title: Bukit Panjang Neighbourhood Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-panjang/fajar-shopping-centre
+  type: html
+  category: living
+  title: Fajar Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-panjang/greenridge-shopping-centre
+  type: html
+  category: living
+  title: Greenridge Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-timah
+  type: html
+  category: living
+  title: Bukit Timah
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/bukit-timah/empress-mall
+  type: html
+  category: living
+  title: Empress Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area
+  type: html
+  category: living
+  title: Central Area
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/bras-basah-complex
+  type: html
+  category: living
+  title: Bras Basah Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/cheng-yan-court
+  type: html
+  category: living
+  title: Cheng Yan Court
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/chinatown-complex
+  type: html
+  category: living
+  title: Chinatown Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/hong-lim-complex
+  type: html
+  category: living
+  title: Hong Lim Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/new-bridge-centre
+  type: html
+  category: living
+  title: New Bridge Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/peoples-park
+  type: html
+  category: living
+  title: Peoples Park
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/tanjong-pagar-plaza
+  type: html
+  category: living
+  title: Tanjong Pagar Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/central-area/waterloo-centre
+  type: html
+  category: living
+  title: Waterloo Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang
+  type: html
+  category: living
+  title: Choa Chu Kang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/choa-chu-kang-centre
+  type: html
+  category: living
+  title: Choa Chu Kang Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/choa-chu-kang-town-centre
+  type: html
+  category: living
+  title: Choa Chu Kang Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/keat-hong-shopping-centre
+  type: html
+  category: living
+  title: Keat Hong Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/limbang-shopping-centre
+  type: html
+  category: living
+  title: Limbang Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/sunshine-place
+  type: html
+  category: living
+  title: Sunshine Place
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/teck-whye-shopping-centre
+  type: html
+  category: living
+  title: Teck Whye Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/choa-chu-kang/yew-tee-square
+  type: html
+  category: living
+  title: Yew Tee Square
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi
+  type: html
+  category: living
+  title: Clementi
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi/blocks-501-505-west-coast-drive
+  type: html
+  category: living
+  title: Blocks 501 505 West Coast Drive
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi/blocks-720-727-clementi-west-street-2
+  type: html
+  category: living
+  title: Blocks 720 727 Clementi West Street 2
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi/clementi-avenue-2-shopping-centre
+  type: html
+  category: living
+  title: Clementi Avenue 2 Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi/clementi-town-centre
+  type: html
+  category: living
+  title: Clementi Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/clementi/sunset-way
+  type: html
+  category: living
+  title: Sunset Way
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang
+  type: html
+  category: living
+  title: Geylang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-10-14-haig-road
+  type: html
+  category: living
+  title: Blocks 10 14 Haig Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-113-119-aljunied-avenue-2
+  type: html
+  category: living
+  title: Blocks 113 119 Aljunied Avenue 2
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-1a-8-eunos-crescent
+  type: html
+  category: living
+  title: Blocks 1A 8 Eunos Crescent
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-37-64-80-circuit-road
+  type: html
+  category: living
+  title: Blocks 37 64 80 Circuit Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-81-83-macpherson-lane
+  type: html
+  category: living
+  title: Blocks 81 83 Macpherson Lane
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/blocks-86-89-circuit-road
+  type: html
+  category: living
+  title: Blocks 86 89 Circuit Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/joo-chiat-complex
+  type: html
+  category: living
+  title: Joo Chiat Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/kallang-airport
+  type: html
+  category: living
+  title: Kallang Airport
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/kampong-ubi-greenville
+  type: html
+  category: living
+  title: Kampong Ubi Greenville
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/geylang/sims-vista
+  type: html
+  category: living
+  title: Sims Vista
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang
+  type: html
+  category: living
+  title: Hougang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang/hougang-n1-centre
+  type: html
+  category: living
+  title: Hougang N1 Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang/hougang-rivercourt
+  type: html
+  category: living
+  title: Hougang Rivercourt
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang/hougang-town-centre
+  type: html
+  category: living
+  title: Hougang Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang/hougang-village
+  type: html
+  category: living
+  title: Hougang Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/hougang/kovan-city
+  type: html
+  category: living
+  title: Kovan City
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east
+  type: html
+  category: living
+  title: Jurong East
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east/blocks-37-39-teban-gardens-road
+  type: html
+  category: living
+  title: Blocks 37 39 Teban Gardens Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east/j-connect
+  type: html
+  category: living
+  title: J Connect
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east/teban-place
+  type: html
+  category: living
+  title: Teban Place
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east/yuhua-place
+  type: html
+  category: living
+  title: Yuhua Place
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-east/yuhua-village
+  type: html
+  category: living
+  title: Yuhua Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west
+  type: html
+  category: living
+  title: Jurong West
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/blocks-959-966-jurong-west-street-92
+  type: html
+  category: living
+  title: Blocks 959 966 Jurong West Street 92
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/boon-lay-shopping-centre
+  type: html
+  category: living
+  title: Boon Lay Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/gek-poh-shopping-centre
+  type: html
+  category: living
+  title: Gek Poh Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/hong-kah-point
+  type: html
+  category: living
+  title: Hong Kah Point
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/hong-kah-ville
+  type: html
+  category: living
+  title: Hong Kah Ville
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/pioneer-mall
+  type: html
+  category: living
+  title: Pioneer Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/jurong-west/taman-jurong-shopping-centre
+  type: html
+  category: living
+  title: Taman Jurong Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa
+  type: html
+  category: living
+  title: Kallang Whampoa
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/balestier-hill-shopping-centre
+  type: html
+  category: living
+  title: Balestier Hill Shopping Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/bendemeer-shopping-mall
+  type: html
+  category: living
+  title: Bendemeer Shopping Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/blocks-41-46-cambridge-road
+  type: html
+  category: living
+  title: Blocks 41 46 Cambridge Road
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/blocks-66-71-kallang-bahru
+  type: html
+  category: living
+  title: Blocks 66 71 Kallang Bahru
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/blocks-81-92-whampoa-drive
+  type: html
+  category: living
+  title: Blocks 81 92 Whampoa Drive
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/boon-keng-ville
+  type: html
+  category: living
+  title: Boon Keng Ville
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/di-tanjong-rhu
+  type: html
+  category: living
+  title: Di Tanjong Rhu
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/kallang-whampoa/kitchener-complex
+  type: html
+  category: living
+  title: Kitchener Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/marine-parade
+  type: html
+  category: living
+  title: Marine Parade
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/marine-parade/marine-parade-promenade
+  type: html
+  category: living
+  title: Marine Parade Promenade
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/marine-parade/marine-terrace-haven
+  type: html
+  category: living
+  title: Marine Terrace Haven
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris
+  type: html
+  category: living
+  title: Pasir Ris
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris/blocks-440-446-pasir-ris-drive-4
+  type: html
+  category: living
+  title: Blocks 440 446 Pasir Ris Drive 4
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris/changi-village
+  type: html
+  category: living
+  title: Changi Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris/elias-mall
+  type: html
+  category: living
+  title: Elias Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris/loyang-point
+  type: html
+  category: living
+  title: Loyang Point
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/pasir-ris/pasir-ris-west-plaza
+  type: html
+  category: living
+  title: Pasir Ris West Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/punggol
+  type: html
+  category: living
+  title: Punggol
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/punggol/northshore-plaza
+  type: html
+  category: living
+  title: Northshore Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/punggol/oasis-terraces
+  type: html
+  category: living
+  title: Oasis Terraces
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/punggol/punggol-plaza
+  type: html
+  category: living
+  title: Punggol Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown
+  type: html
+  category: living
+  title: Queenstown
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/blocks-116-118-commonwealth-crescent
+  type: html
+  category: living
+  title: Blocks 116 118 Commonwealth Crescent
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/blocks-1a-3a-46-49-commonwealth-drive
+  type: html
+  category: living
+  title: Blocks 1A 3A 46 49 Commonwealth Drive
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/blocks-40-47-holland-drive
+  type: html
+  category: living
+  title: Blocks 40 47 Holland Drive
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/dawson-place
+  type: html
+  category: living
+  title: Dawson Place
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/ghim-moh-centre
+  type: html
+  category: living
+  title: Ghim Moh Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/queenstown/mei-ling-heights
+  type: html
+  category: living
+  title: Mei Ling Heights
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sembawang
+  type: html
+  category: living
+  title: Sembawang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sembawang/canberra-plaza
+  type: html
+  category: living
+  title: Canberra Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sembawang/sembawang-mart
+  type: html
+  category: living
+  title: Sembawang Mart
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sengkang
+  type: html
+  category: living
+  title: Sengkang
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sengkang/anchorvale-village
+  type: html
+  category: living
+  title: Anchorvale Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sengkang/buangkok-square
+  type: html
+  category: living
+  title: Buangkok Square
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/sengkang/rivervale-plaza
+  type: html
+  category: living
+  title: Rivervale Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/serangoon
+  type: html
+  category: living
+  title: Serangoon
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/serangoon/serangoon-north-village
+  type: html
+  category: living
+  title: Serangoon North Village
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/serangoon/serangoon-town-centre
+  type: html
+  category: living
+  title: Serangoon Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines
+  type: html
+  category: living
+  title: Tampines
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/block-248-simei-street-3
+  type: html
+  category: living
+  title: Block 248 Simei Street 3
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/blocks-136-139-tampines-street-11
+  type: html
+  category: living
+  title: Blocks 136 139 Tampines Street 11
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/blocks-201-201g-tampines-street-21
+  type: html
+  category: living
+  title: Blocks 201 201G Tampines Street 21
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/blocks-472-484-tampines-street-44
+  type: html
+  category: living
+  title: Blocks 472 484 Tampines Street 44
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/blocks-821-829-tampines-street-81
+  type: html
+  category: living
+  title: Blocks 821 829 Tampines Street 81
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/tampines-central-community-complex
+  type: html
+  category: living
+  title: Tampines Central Community Complex
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tampines/tampines-town-centre
+  type: html
+  category: living
+  title: Tampines Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tengah
+  type: html
+  category: living
+  title: Tengah
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/tengah/plantation-plaza
+  type: html
+  category: living
+  title: Plantation Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh
+  type: html
+  category: living
+  title: Toa Payoh
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/blocks-146-148-potong-pasir-avenue-1
+  type: html
+  category: living
+  title: Blocks 146 148 Potong Pasir Avenue 1
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/blocks-211-212-lorong-8-toa-payoh
+  type: html
+  category: living
+  title: Blocks 211 212 Lorong 8 Toa Payoh
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/hdb-hub
+  type: html
+  category: living
+  title: Hdb Hub
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/joo-seng-green
+  type: html
+  category: living
+  title: Joo Seng Green
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/kim-keat-palm
+  type: html
+  category: living
+  title: Kim Keat Palm
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/toa-payoh-palm-spring
+  type: html
+  category: living
+  title: Toa Payoh Palm Spring
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/toa-payoh-town-centre
+  type: html
+  category: living
+  title: Toa Payoh Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/toa-payoh-view
+  type: html
+  category: living
+  title: Toa Payoh View
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/toa-payoh/toa-payoh-vista
+  type: html
+  category: living
+  title: Toa Payoh Vista
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands
+  type: html
+  category: living
+  title: Woodlands
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/888-plaza
+  type: html
+  category: living
+  title: 888 Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/admiralty-place
+  type: html
+  category: living
+  title: Admiralty Place
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/fuchun-neighbourhood-centre
+  type: html
+  category: living
+  title: Fuchun Neighbourhood Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/kampung-admiralty
+  type: html
+  category: living
+  title: Kampung Admiralty
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/marsiling-court
+  type: html
+  category: living
+  title: Marsiling Court
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/vista-point
+  type: html
+  category: living
+  title: Vista Point
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/woodlands-civic-centre
+  type: html
+  category: living
+  title: Woodlands Civic Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/woodlands-mart
+  type: html
+  category: living
+  title: Woodlands Mart
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/woodlands/woodlands-north-plaza
+  type: html
+  category: living
+  title: Woodlands North Plaza
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun
+  type: html
+  category: living
+  title: Yishun
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun/chong-pang-city
+  type: html
+  category: living
+  title: Chong Pang City
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun/khatib-central
+  type: html
+  category: living
+  title: Khatib Central
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun/nee-soon-east-courtyard
+  type: html
+  category: living
+  title: Nee Soon East Courtyard
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun/yishun-mall
+  type: html
+  category: living
+  title: Yishun Mall
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/explore-my-town/yishun/yishun-town-centre
+  type: html
+  category: living
+  title: Yishun Town Centre
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/facilities
+  type: html
+  category: living
+  title: Facilities
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/neighbourhood-centres
+  type: html
+  category: living
+  title: Neighbourhood Centres
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/exploring-my-neighbourhood/town-and-community-plazas
+  type: html
+  category: living
+  title: Town And Community Plazas
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day
+  type: html
+  category: living
+  title: Hdb Community Day
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/hdb-community-day-2023
+  type: html
+  category: living
+  title: Hdb Community Day 2023
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/hdb-community-day-2023/friends-of-our-heartlands-exhibition-2023
+  type: html
+  category: living
+  title: Friends Of Our Heartlands Exhibition 2023
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/hdb-community-day-2023/lively-places-challenge-2023
+  type: html
+  category: living
+  title: Lively Places Challenge 2023
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/hdb-community-day-2023/singapores-friendly-neighbourhood-award-2023
+  type: html
+  category: living
+  title: Singapores Friendly Neighbourhood Award 2023
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/partnerships
+  type: html
+  category: living
+  title: Partnerships
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/people
+  type: html
+  category: living
+  title: People
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/hdb-community-day/places
+  type: html
+  category: living
+  title: Places
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/practising-ecoliving
+  type: html
+  category: living
+  title: Practising Ecoliving
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/practising-ecoliving/ecoliving-tips
+  type: html
+  category: living
+  title: Ecoliving Tips
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/practising-ecoliving/sustainability-trails
+  type: html
+  category: living
+  title: Sustainability Trails
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/practising-ecoliving/sustainability-trails/explorer-trail
+  type: html
+  category: living
+  title: Explorer Trail
+- url: https://www.hdb.gov.sg/managing-my-home/living-in-my-community/practising-ecoliving/sustainability-trails/voyager-trail
+  type: html
+  category: living
+  title: Voyager Trail
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance
+  type: html
+  category: living
+  title: Renovation And Maintenance
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance
+  type: html
+  category: living
+  title: Home Maintenance
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/function-of-hdb-branches-and-town-councils
+  type: html
+  category: living
+  title: Function Of Hdb Branches And Town Councils
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/guard-against-contractors-on-doortodoor-sales
+  type: html
+  category: living
+  title: Guard Against Contractors On Doortodoor Sales
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide
+  type: html
+  category: living
+  title: Home Care Guide
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/air-conditioners
+  type: html
+  category: living
+  title: Air Conditioners
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/ceiling-leaks
+  type: html
+  category: living
+  title: Ceiling Leaks
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/electrical-accessories-and-wiring
+  type: html
+  category: living
+  title: Electrical Accessories And Wiring
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/floor-finishes
+  type: html
+  category: living
+  title: Floor Finishes
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/floor-traps
+  type: html
+  category: living
+  title: Floor Traps
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/gate-and-door
+  type: html
+  category: living
+  title: Gate And Door
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/household-shelter
+  type: html
+  category: living
+  title: Household Shelter
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/pipes
+  type: html
+  category: living
+  title: Pipes
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/sinks-and-wash-basins
+  type: html
+  category: living
+  title: Sinks And Wash Basins
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/spalling-concrete
+  type: html
+  category: living
+  title: Spalling Concrete
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/toilet-fittings
+  type: html
+  category: living
+  title: Toilet Fittings
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/toilets
+  type: html
+  category: living
+  title: Toilets
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/walls
+  type: html
+  category: living
+  title: Walls
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/windows
+  type: html
+  category: living
+  title: Windows
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/professional-help-and-contractors
+  type: html
+  category: living
+  title: Professional Help And Contractors
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/professional-help-and-contractors/air-conditioners
+  type: html
+  category: living
+  title: Air Conditioners
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/professional-help-and-contractors/minor-repairs
+  type: html
+  category: living
+  title: Minor Repairs
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/professional-help-and-contractors/windows
+  type: html
+  category: living
+  title: Windows
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/rectification-of-defects-in-new-flats
+  type: html
+  category: living
+  title: Rectification Of Defects In New Flats
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation
+  type: html
+  category: living
+  title: Renovation
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/application-for-a-renovation-permit
+  type: html
+  category: living
+  title: Application For A Renovation Permit
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/important-information-on-renovations
+  type: html
+  category: living
+  title: Important Information On Renovations
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/looking-for-renovation-contractors
+  type: html
+  category: living
+  title: Looking For Renovation Contractors
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines
+  type: html
+  category: living
+  title: Renovation Guidelines
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/air-conditioner-installation-works
+  type: html
+  category: living
+  title: Air Conditioner Installation Works
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/building-works
+  type: html
+  category: living
+  title: Building Works
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/design-build-and-sell-scheme-dbss-flats
+  type: html
+  category: living
+  title: Design Build And Sell Scheme Dbss Flats
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/electrical-works
+  type: html
+  category: living
+  title: Electrical Works
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/water-and-sanitary-plumbing-works-and-gas-works
+  type: html
+  category: living
+  title: Water And Sanitary Plumbing Works And Gas Works
+- url: https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/renovation-guidelines/window-works
+  type: html
+  category: living
+  title: Window Works
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning
+  type: html
+  category: living
+  title: Retirement Planning
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement
+  type: html
+  category: living
+  title: Monetising Flat For Retirement
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/lease-buyback-scheme-lbs
+  type: html
+  category: living
+  title: Lease Buyback Scheme Lbs
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/lease-buyback-scheme-lbs/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/lease-buyback-scheme-lbs/understanding-the-lbs
+  type: html
+  category: living
+  title: Understanding The Lbs
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/monetising-flat-for-retirement/silver-housing-bonus
+  type: html
+  category: living
+  title: Silver Housing Bonus
+- url: https://www.hdb.gov.sg/managing-my-home/retirement-planning/use-of-cpf-for-loan-repayment
+  type: html
+  category: living
+  title: Use Of Cpf For Loan Repayment
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat
+  type: html
+  category: living
+  title: Selling A Flat
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/eligibility
+  type: html
+  category: living
+  title: Eligibility
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat
+  type: html
+  category: living
+  title: Process For Selling A Flat
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/intent-to-sell
+  type: html
+  category: living
+  title: Intent To Sell
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/option-to-purchase
+  type: html
+  category: living
+  title: Option To Purchase
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/overview
+  type: html
+  category: living
+  title: Overview
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-application
+  type: html
+  category: living
+  title: Resale Flat Application
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-application/application-process
+  type: html
+  category: living
+  title: Application Process
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-application/approval-of-application
+  type: html
+  category: living
+  title: Approval Of Application
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-application/request-for-temporary-extension-of-stay
+  type: html
+  category: living
+  title: Request For Temporary Extension Of Stay
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-completion
+  type: html
+  category: living
+  title: Resale Flat Completion
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-planning
+  type: html
+  category: living
+  title: Resale Flat Planning
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-planning/managing-the-sale-of-flat
+  type: html
+  category: living
+  title: Managing The Sale Of Flat
+- url: https://www.hdb.gov.sg/managing-my-home/selling-a-flat/process-for-selling-a-flat/resale-flat-planning/resale-statistics
+  type: html
+  category: living
+  title: Resale Statistics
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment
+  type: html
+  category: living
+  title: Upgrading And Redevelopment
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/enhancement-for-active-seniors-ease
+  type: html
+  category: living
+  title: Enhancement For Active Seniors Ease
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/enhancement-for-active-seniors-ease/videos-on-ease-direct-application
+  type: html
+  category: living
+  title: Videos On Ease Direct Application
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/home-improvement-programme-hip
+  type: html
+  category: living
+  title: Home Improvement Programme Hip
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/lift-upgrading-programme-lup
+  type: html
+  category: living
+  title: Lift Upgrading Programme Lup
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/neighbourhood-renewal-programme-nrp
+  type: html
+  category: living
+  title: Neighbourhood Renewal Programme Nrp
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost
+  type: html
+  category: living
+  title: Pay Upgrading Cost
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost/change-of-flat-ownership-and-liability-to-pay
+  type: html
+  category: living
+  title: Change Of Flat Ownership And Liability To Pay
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost/change-repayment-period-or-convert-interest-rate
+  type: html
+  category: living
+  title: Change Repayment Period Or Convert Interest Rate
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost/process
+  type: html
+  category: living
+  title: Process
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost/scheduled-billing-date-and-statement-of-account
+  type: html
+  category: living
+  title: Scheduled Billing Date And Statement Of Account
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/pay-upgrading-cost/subsidies-and-financial-assistance-measures
+  type: html
+  category: living
+  title: Subsidies And Financial Assistance Measures
+- url: https://www.hdb.gov.sg/managing-my-home/upgrading-and-redevelopment/selective-en-bloc-redevelopment-scheme-sers
+  type: html
+  category: living
+  title: Selective En Bloc Redevelopment Scheme Sers
