@@ -1,0 +1,154 @@
+# 30 hand-curated cases across buying / living / out-of-scope.
+# `must_cite_url_contains` substrings are matched against ingested URLs;
+# tune them to your real corpus after the first eval run.
+cases:
+  # --- Buying (15) ---
+  - id: 1
+    question: "Am I eligible for a BTO if I'm 32 and single?"
+    expected_behavior: answer
+    must_cite_url_contains: ["eligibility"]
+    category: buying
+  - id: 2
+    question: "What's the income ceiling for a 4-room BTO?"
+    expected_behavior: answer
+    must_cite_url_contains: ["income", "eligibility"]
+    category: buying
+  - id: 3
+    question: "Can I use my CPF to pay for the down payment on a BTO?"
+    expected_behavior: answer
+    must_cite_url_contains: ["cpf", "financing", "financial-planning"]
+    category: buying
+  - id: 4
+    question: "What is the Enhanced CPF Housing Grant (EHG)?"
+    expected_behavior: answer
+    must_cite_url_contains: ["grants", "ehg"]
+    category: buying
+  - id: 5
+    question: "What documents do I need to apply for a BTO?"
+    expected_behavior: answer
+    must_cite_url_contains: ["application", "buying-a-flat"]
+    category: buying
+  - id: 6
+    question: "Is there a different scheme for first-time buyers?"
+    expected_behavior: answer
+    must_cite_url_contains: ["first-timer", "grants", "priority"]
+    category: buying
+  - id: 7
+    question: "Can foreigners buy an HDB flat?"
+    expected_behavior: answer
+    must_cite_url_contains: ["eligibility", "citizenship"]
+    category: buying
+  - id: 8
+    question: "What's the difference between BTO and resale?"
+    expected_behavior: answer
+    must_cite_url_contains: ["buying-a-flat"]
+    category: buying
+  - id: 9
+    question: "What is the Family Grant?"
+    expected_behavior: answer
+    must_cite_url_contains: ["grants", "family"]
+    category: buying
+  - id: 10
+    question: "How much loan can I take from HDB?"
+    expected_behavior: answer
+    must_cite_url_contains: ["loan", "financing"]
+    category: buying
+  - id: 11
+    question: "What's the age requirement for the Single Singapore Citizen Scheme?"
+    expected_behavior: answer
+    must_cite_url_contains: ["single", "eligibility"]
+    category: buying
+  - id: 12
+    question: "Can I buy a flat with my parents under the Multi-Generation Family Grant?"
+    expected_behavior: answer
+    must_cite_url_contains: ["multi-generation", "grants", "family"]
+    category: buying
+  - id: 13
+    question: "What if I have an existing private property?"
+    expected_behavior: answer
+    must_cite_url_contains: ["eligibility", "private", "acquiring-private"]
+    category: buying
+  - id: 14
+    question: "Can a divorced person apply for a new BTO?"
+    expected_behavior: answer
+    must_cite_url_contains: ["eligibility", "divorce", "schemes"]
+    category: buying
+  - id: 15
+    question: "What is the Proximity Housing Grant?"
+    expected_behavior: answer
+    must_cite_url_contains: ["proximity", "grants"]
+    category: buying
+
+  # --- Living (10) ---
+  - id: 16
+    question: "How long is the MOP for a 4-room BTO?"
+    expected_behavior: answer
+    must_cite_url_contains: ["mop", "occupation", "conditions"]
+    category: living
+  - id: 17
+    question: "Can I rent out my whole flat after MOP?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renting", "renting-out-a-flat", "sub-letting"]
+    category: living
+  - id: 18
+    question: "Is there an ethnic quota for HDB flats?"
+    expected_behavior: answer
+    must_cite_url_contains: ["ethnic", "eip"]
+    category: living
+  - id: 19
+    question: "Do I need approval for renovations?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renovation"]
+    category: living
+  - id: 20
+    question: "Can I rent out a single room before MOP?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renting", "rooms", "bedroom"]
+    category: living
+  - id: 21
+    question: "Can I have a pet in my HDB flat?"
+    expected_behavior: answer
+    must_cite_url_contains: ["pet", "managing-my-home"]
+    category: living
+  - id: 22
+    question: "What renovations are not allowed?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renovation"]
+    category: living
+  - id: 23
+    question: "Can I install an air-con unit on the external wall?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renovation", "air"]
+    category: living
+  - id: 24
+    question: "What happens if I exceed the occupancy cap?"
+    expected_behavior: answer
+    must_cite_url_contains: ["occupancy", "managing-my-home"]
+    category: living
+  - id: 25
+    question: "Is there a fine for renovating without approval?"
+    expected_behavior: answer
+    must_cite_url_contains: ["renovation"]
+    category: living
+
+  # --- Out-of-scope refusals (5) ---
+  - id: 26
+    question: "How do I get a US green card?"
+    expected_behavior: refuse
+    category: out_of_scope
+  - id: 27
+    question: "What's the weather in Singapore today?"
+    expected_behavior: refuse
+    category: out_of_scope
+  - id: 28
+    question: "What about HDB in Hong Kong?"
+    expected_behavior: refuse
+    category: out_of_scope
+  - id: 29
+    question: "Can you write me a Python program?"
+    expected_behavior: refuse
+    category: out_of_scope
+  - id: 30
+    question: "What was the BTO launch in March 2026 specifically?"
+    expected_behavior: refuse
+    category: out_of_scope
