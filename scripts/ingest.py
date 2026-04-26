@@ -10,5 +10,10 @@ if __name__ == "__main__":
         "--limit", type=int, default=None,
         help="Only ingest the first N sources (for smoke-testing).",
     )
+    parser.add_argument(
+        "--chunks-only",
+        action="store_true",
+        help="Load sources, write data/chunks.jsonl, and skip embeddings/vector-store writes.",
+    )
     args = parser.parse_args()
-    run_ingest(limit=args.limit)
+    run_ingest(limit=args.limit, chunks_only=args.chunks_only)

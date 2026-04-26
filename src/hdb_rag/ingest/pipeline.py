@@ -55,7 +55,7 @@ def _doc_from_source(source: dict, ingested_at: str, gate: PolitenessGate) -> li
     raise ValueError(f"Unknown source type: {source['type']}")
 
 
-def run_ingest(limit: int | None = None) -> None:
+def run_ingest(limit: int | None = None, *, chunks_only: bool = False) -> None:
     ingested_at = datetime.now(timezone.utc).isoformat()
     sources = _load_sources(config.SOURCES_YAML)
     if limit is not None:
@@ -77,7 +77,15 @@ def run_ingest(limit: int | None = None) -> None:
 
     print(f"Loaded {len(docs)} documents. Chunking…")
     chunks = chunk_documents(docs, chunk_size=config.CHUNK_SIZE, chunk_overlap=config.CHUNK_OVERLAP)
-    print(f"Produced {len(chunks)} chunks. Embedding + writing to {config.VECTOR_STORE}…")
+    print(f"Produced {len(chunks)} chunks.")
+
+    config.INGESTED_AT.parent.mkdir(parents=True, exist_ok=True)
+    write_chunks_jsonl(chunks, config.CHUNKS_JSONL)
+    if chunks_only:
+        print(f"✅ chunk-only ingest complete. Wrote {config.CHUNKS_JSONL}")
+        return
+
+    print(f"Embedding + writing to {config.VECTOR_STORE}…")
 
     embedder = build_embedder()
     store = build_vector_store(embedder, reset=True)
@@ -85,7 +93,5 @@ def run_ingest(limit: int | None = None) -> None:
     for i in tqdm(range(0, len(chunks), BATCH), desc="indexing"):
         store.add_documents(chunks[i:i + BATCH])
 
-    config.INGESTED_AT.parent.mkdir(parents=True, exist_ok=True)
-    write_chunks_jsonl(chunks, config.CHUNKS_JSONL)
     config.INGESTED_AT.write_text(ingested_at)
     print(f"✅ ingest complete. Wrote {config.CHUNKS_JSONL} and {config.INGESTED_AT}")

@@ -29,6 +29,60 @@ _CONTENT_KEYS = (
 )
 
 
+def _normalise_line_for_overlap(line: str) -> str:
+    return re.sub(r"\s+", " ", line.strip()).casefold()
+
+
+def _nonempty_normalised_lines(text: str) -> list[str]:
+    return [_normalise_line_for_overlap(line) for line in text.splitlines() if line.strip()]
+
+
+def _dedupe_initial_repeated_line(lines: list[str]) -> list[str]:
+    if len(lines) < 2:
+        return lines
+    if _normalise_line_for_overlap(lines[0]) != _normalise_line_for_overlap(lines[1]):
+        return lines
+    return [lines[0], *lines[2:]]
+
+
+def _overlap_line_count(left: str, right: str) -> int:
+    left_lines = _nonempty_normalised_lines(left)
+    right_lines = _nonempty_normalised_lines(right)
+    max_overlap = min(len(left_lines), len(right_lines))
+    for count in range(max_overlap, 0, -1):
+        if left_lines[-count:] == right_lines[:count]:
+            return count
+    return 0
+
+
+def _drop_nonempty_prefix_lines(text: str, count: int) -> str:
+    if count <= 0:
+        return text
+
+    remaining = count
+    cursor = 0
+    for raw_line in text.splitlines(keepends=True):
+        cursor += len(raw_line)
+        if raw_line.strip():
+            remaining -= 1
+            if remaining == 0:
+                return text[cursor:].lstrip()
+    return ""
+
+
+def _merge_text_parts(left: str, right: str) -> str:
+    if not left:
+        return right
+    if not right:
+        return left
+
+    overlap = _overlap_line_count(left, right)
+    right_tail = _drop_nonempty_prefix_lines(right, overlap)
+    if not right_tail:
+        return left.rstrip()
+    return f"{left.rstrip()}\n\n{right_tail.lstrip()}"
+
+
 def _strip_html(fragment: str) -> str:
     text = BeautifulSoup(fragment, "html.parser").get_text(separator="\n")
     lines = [line.strip() for line in text.splitlines() if line.strip()]
@@ -80,6 +134,7 @@ def _visible_text(html: str) -> str:
         tag.decompose()
     text = soup.get_text(separator="\n")
     lines = [line.strip() for line in text.splitlines() if line.strip()]
+    lines = _dedupe_initial_repeated_line(lines)
     return "\n".join(lines)
 
 
@@ -88,7 +143,7 @@ def _clean_html(html: str) -> str:
     visible = _visible_text(html)
     next_data = _next_data_text(html)
     if next_data and visible:
-        return visible + "\n\n" + next_data
+        return _merge_text_parts(visible, next_data)
     return next_data or visible
 
 
