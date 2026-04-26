@@ -30,7 +30,9 @@ _CONTENT_KEYS = (
 
 
 def _strip_html(fragment: str) -> str:
-    return BeautifulSoup(fragment, "html.parser").get_text(separator=" ").strip()
+    text = BeautifulSoup(fragment, "html.parser").get_text(separator="\n")
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    return "\n".join(lines)
 
 
 def _next_data_text(html: str) -> str:
