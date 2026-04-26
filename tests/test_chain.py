@@ -24,7 +24,8 @@ def test_chain_first_turn_skips_rewrite_and_uses_retrieved_context():
     result = chain.invoke({"question": "How long is the MOP?", "chat_history": []})
 
     assert result["answer"] == "The MOP is 5 years."
-    assert result["context"] == docs
+    assert [d.page_content for d in result["context"]] == [d.page_content for d in docs]
+    assert result["context"][0].metadata["retrieval_rank"] == 1
 
 
 def test_dedupe_sources_preserves_order_and_dedupes():

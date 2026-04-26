@@ -31,6 +31,16 @@ def _format_context(docs: list[Document]) -> str:
     return "\n\n---\n\n".join(parts)
 
 
+def _with_retrieval_ranks(docs: list[Document]) -> list[Document]:
+    return [
+        Document(
+            page_content=doc.page_content,
+            metadata={**doc.metadata, "retrieval_rank": i},
+        )
+        for i, doc in enumerate(docs, start=1)
+    ]
+
+
 def build_chain(
     *,
     retriever: BaseRetriever,
@@ -48,7 +58,9 @@ def build_chain(
     return (
         RunnablePassthrough.assign(standalone_question=standalone)
         | RunnablePassthrough.assign(
-            context=RunnableLambda(lambda x: retriever.invoke(x["standalone_question"])),
+            context=RunnableLambda(
+                lambda x: _with_retrieval_ranks(retriever.invoke(x["standalone_question"]))
+            ),
         )
         | RunnablePassthrough.assign(
             context_text=RunnableLambda(lambda x: _format_context(x["context"])),

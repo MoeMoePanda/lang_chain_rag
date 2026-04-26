@@ -9,6 +9,7 @@ from langchain_core.documents import Document
 from tqdm import tqdm
 
 from hdb_rag import config
+from hdb_rag.chunk_cache import write_chunks_jsonl
 from hdb_rag.discovery.politeness import PolitenessGate
 from hdb_rag.ingest.loaders import (
     download_pdf,
@@ -85,5 +86,6 @@ def run_ingest(limit: int | None = None) -> None:
         store.add_documents(chunks[i:i + BATCH])
 
     config.INGESTED_AT.parent.mkdir(parents=True, exist_ok=True)
+    write_chunks_jsonl(chunks, config.CHUNKS_JSONL)
     config.INGESTED_AT.write_text(ingested_at)
-    print(f"✅ ingest complete. Wrote {config.INGESTED_AT}")
+    print(f"✅ ingest complete. Wrote {config.CHUNKS_JSONL} and {config.INGESTED_AT}")

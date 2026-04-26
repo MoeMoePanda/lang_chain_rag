@@ -24,6 +24,7 @@ from hdb_rag.eval.metrics import (
     refused,
     retrieval_at_k,
 )
+from hdb_rag.retrieval.diagnostics import RetrievalDiagnostics
 from hdb_rag.retrieval.factory import build_retriever
 from hdb_rag.stores import build_embedder, build_vector_store
 
@@ -42,6 +43,7 @@ class CaseResult:
     relevance_pass: bool | None
     citation_pass: bool | None
     refusal_pass: bool | None
+    retrieval_diagnostics: dict | None = None
 
 
 def _load_cases() -> list[dict]:
@@ -66,6 +68,7 @@ def _result_to_dict(r: CaseResult) -> dict:
         "relevance_pass": r.relevance_pass,
         "citation_pass": r.citation_pass,
         "refusal_pass": r.refusal_pass,
+        "retrieval_diagnostics": r.retrieval_diagnostics,
     }
 
 
@@ -83,6 +86,7 @@ def _dict_to_result(d: dict) -> CaseResult:
         relevance_pass=d.get("relevance_pass"),
         citation_pass=d.get("citation_pass"),
         refusal_pass=d.get("refusal_pass"),
+        retrieval_diagnostics=d.get("retrieval_diagnostics"),
     )
 
 
@@ -138,9 +142,15 @@ def run_mode(
 
     # Lazy chain build — skip entirely if there's nothing to do
     chain = None
+    diagnostics = RetrievalDiagnostics()
     if todo_count > 0:
         store = build_vector_store(build_embedder())
-        retriever = build_retriever(mode=mode, store=store, fast_llm=fast_llm)
+        retriever = build_retriever(
+            mode=mode,
+            store=store,
+            fast_llm=fast_llm,
+            diagnostics=diagnostics,
+        )
         chain = build_chain(retriever=retriever, answer_llm=answer_llm, fast_llm=fast_llm)
 
     results: list[CaseResult] = []
@@ -149,13 +159,25 @@ def run_mode(
             results.append(saved_by_id[case["id"]])
             continue
 
+        diagnostics.reset()
+        retrieval_diagnostics = None
         try:
             out = chain.invoke({"question": case["question"], "chat_history": []})
             retrieved = out["context"]
             answer = out["answer"]
+            retrieval_diagnostics = diagnostics.to_dict(
+                original_query=case["question"],
+                standalone_query=out.get("standalone_question"),
+                final_docs=retrieved,
+            )
         except Exception as e:
             retrieved = []
             answer = f"(eval error: {e})"
+            retrieval_diagnostics = diagnostics.to_dict(
+                original_query=case["question"],
+                standalone_query=None,
+                final_docs=[],
+            )
 
         sources = dedupe_sources(retrieved)
         must = case.get("must_cite_url_contains", [])
@@ -182,6 +204,7 @@ def run_mode(
             ),
             citation_pass=citation_correct(sources, must_contain=must) if must else None,
             refusal_pass=(refused(answer) == (case["expected_behavior"] == "refuse")),
+            retrieval_diagnostics=retrieval_diagnostics,
         )
         _append_result(result, mode)
         results.append(result)
