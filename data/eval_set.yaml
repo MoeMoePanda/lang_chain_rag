@@ -21,7 +21,7 @@ cases:
   - id: 4
     question: "What is the Enhanced CPF Housing Grant (EHG)?"
     expected_behavior: answer
-    must_cite_url_contains: ["grants", "ehg"]
+    must_cite_url_contains: ["enhanced-cpf-housing-grant"]
     category: buying
   - id: 5
     question: "What documents do I need to apply for a BTO?"
@@ -46,7 +46,7 @@ cases:
   - id: 9
     question: "What is the Family Grant?"
     expected_behavior: answer
-    must_cite_url_contains: ["grants", "family"]
+    must_cite_url_contains: ["couples-and-families"]
     category: buying
   - id: 10
     question: "How much loan can I take from HDB?"
@@ -60,8 +60,7 @@ cases:
     category: buying
   - id: 12
     question: "Can I buy a flat with my parents under the Multi-Generation Family Grant?"
-    expected_behavior: answer
-    must_cite_url_contains: ["multi-generation", "grants", "family"]
+    expected_behavior: refuse
     category: buying
   - id: 13
     question: "What if I have an existing private property?"

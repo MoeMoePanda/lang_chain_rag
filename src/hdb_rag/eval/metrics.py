@@ -9,9 +9,13 @@ from hdb_rag.prompts import FAITHFULNESS_JUDGE_PROMPT, RELEVANCE_JUDGE_PROMPT
 
 _REFUSAL_PHRASES = (
     "i'm not sure",
+    "i'm sorry",
+    "i am sorry",
     "please check hdb.gov.sg",
     "can't help",
     "cannot help",
+    "can only provide information",
+    "can only assist",
     "unrelated",
     "outside the scope",
     "not within",

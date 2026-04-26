@@ -108,6 +108,14 @@ def load_saved_results(mode: str) -> list[CaseResult]:
     return out
 
 
+def _saved_result_matches_case(result: CaseResult, case: dict) -> bool:
+    return (
+        result.question == case["question"]
+        and result.category == case["category"]
+        and result.expected_behavior == case["expected_behavior"]
+    )
+
+
 def _append_result(r: CaseResult, mode: str) -> None:
     path = _results_path(mode)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -130,14 +138,19 @@ def run_mode(
     one case's worth of work.
     """
     saved = load_saved_results(mode)
-    saved_by_id = {r.id: r for r in saved}
-
     cases = _load_cases()
+    cases_by_id = {case["id"]: case for case in cases}
+    saved_by_id = {
+        r.id: r
+        for r in saved
+        if r.id in cases_by_id and _saved_result_matches_case(r, cases_by_id[r.id])
+    }
     todo_count = sum(1 for c in cases if c["id"] not in saved_by_id)
     if saved:
+        stale_count = len(saved) - len(saved_by_id)
         print(
             f"  resuming {mode}: {len(saved)}/{len(cases)} already done, "
-            f"{todo_count} remaining"
+            f"{stale_count} stale, {todo_count} remaining"
         )
 
     # Lazy chain build — skip entirely if there's nothing to do

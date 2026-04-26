@@ -25,4 +25,6 @@ def test_citation_correct():
 def test_refused_detects_refusal_phrases():
     assert refused("I'm not sure based on what I've indexed — please check hdb.gov.sg") is True
     assert refused("This is unrelated to HDB; I can't help with that.") is True
+    assert refused("I'm sorry, but I can only assist with HDB housing rules.") is True
+    assert refused("I am sorry, but I can only provide information regarding HDB housing.") is True
     assert refused("The MOP is 5 years.") is False
