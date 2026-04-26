@@ -13,6 +13,7 @@ __pycache__/
 # Project artifacts (committed inputs only; outputs are reproducible)
 data/chroma_db/
 data/pdfs/
+data/chunks.jsonl
 
 # Eval per-case JSONL — only the rendered eval-report.md is committed
 reports/eval_results_*.jsonl
