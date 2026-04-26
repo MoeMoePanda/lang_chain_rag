@@ -62,7 +62,7 @@ def test_chunking_adds_rich_stable_metadata():
     assert len({chunk.metadata["chunk_id"] for chunk in first}) == len(first)
     for chunk in first:
         assert required <= set(chunk.metadata)
-        assert chunk.metadata["chunking_strategy"] == "section_recursive_v1"
+        assert chunk.metadata["chunking_strategy"] == "section_recursive_v2"
         assert chunk.metadata["chunk_size"] == 160
         assert chunk.metadata["chunk_overlap"] == 20
 
@@ -86,6 +86,32 @@ def test_chunking_detects_section_headings_and_preserves_them():
     assert any(chunk.page_content.startswith("Renovation Permit") for chunk in chunks)
     for chunk in chunks:
         assert chunk.metadata["section_path"].startswith("HDB Rules")
+
+
+def test_chunking_coalesces_dense_heading_like_navigation():
+    text = "\n".join([
+        "BTO, SBF, and Open Booking of Flats",
+        "Buying a Flat",
+        "Excited about getting your own home? We are here to help.",
+        "Visit HDB Flat Portal",
+        "Related topics",
+        "Go to e-Services",
+        "Flat, Grant, and Loan Eligibility",
+        "Find out your eligibility to buy an HDB flat, for CPF housing grants, and loans.",
+        "Financial Planning for a Flat Purchase",
+        "Plan your finances and budget for a flat purchase with cash and CPF savings.",
+        "Process for Buying a New Flat",
+        "Find out the process for buying a flat from HDB and begin your home buying journey.",
+    ])
+    doc = Document(page_content=text, metadata={"source_url": "https://hdb/nav", "title": "Buying"})
+
+    chunks = chunk_documents([doc], chunk_size=1000, chunk_overlap=150)
+
+    assert len(chunks) == 1
+    assert chunks[0].metadata["chunk_char_count"] >= 200
+    assert "Visit HDB Flat Portal" in chunks[0].page_content
+    assert "Flat, Grant, and Loan Eligibility" in chunks[0].page_content
+    assert chunks[0].page_content != "Visit HDB Flat Portal"
 
 
 def test_chunking_falls_back_to_document_title_when_no_heading_found():
