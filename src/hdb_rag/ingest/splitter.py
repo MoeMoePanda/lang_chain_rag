@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-CHUNKING_STRATEGY = "section_recursive_v2"
+CHUNKING_STRATEGY = "section_recursive_v3"
 _MAX_HEADING_CHARS = 90
 _MAX_HEADING_WORDS = 12
 _MIN_CHUNK_RATIO = 0.25
@@ -18,7 +18,7 @@ _BULLET_RE = re.compile(r"^(\d+[.)]|[a-z][.)]|[-*\u2022])\s+")
 _URL_RE = re.compile(r"^(https?://|www\.)", re.IGNORECASE)
 _SENTENCE_END_RE = re.compile(r"[.!?]$")
 _BOILERPLATE_HEADING_RE = re.compile(
-    r"^(go to e-services|related topics|tools and resources|visit hdb flat portal)$",
+    r"^(go to e-services|next steps|related topics|tools and resources|visit hdb flat portal)$",
     re.IGNORECASE,
 )
 
@@ -99,6 +99,8 @@ def _is_heading(line: str) -> bool:
         return False
     if _SENTENCE_END_RE.search(stripped):
         return False
+    if not stripped[0].isalnum():
+        return False
     if not any(ch.isalpha() for ch in stripped):
         return False
     return True
@@ -106,6 +108,54 @@ def _is_heading(line: str) -> bool:
 
 def _default_section_title(doc: Document) -> str:
     return str(doc.metadata.get("title") or "Untitled")
+
+
+def _normalise_heading(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip().casefold()
+
+
+def _looks_like_page_title(line: str, doc: Document) -> bool:
+    title = _normalise_heading(_default_section_title(doc))
+    candidate = _normalise_heading(line)
+    return bool(title and (candidate == title or candidate.startswith(f"{title} ")))
+
+
+def _line_gap_has_blank_line(text: str, left: _Line, right: _Line) -> bool:
+    return text[left.end:right.start].count("\n") >= 2
+
+
+def _top_next_steps_nav_span(text: str, lines: list[_Line], doc: Document) -> tuple[int, int] | None:
+    if not lines or not _looks_like_page_title(lines[0].text, doc):
+        return None
+
+    next_steps_index = next(
+        (
+            i
+            for i, line in enumerate(lines[:6])
+            if _normalise_heading(line.text) == "next steps"
+        ),
+        None,
+    )
+    if next_steps_index is None:
+        return None
+
+    end = lines[-1].end
+    for i in range(next_steps_index + 1, len(lines)):
+        if _line_gap_has_blank_line(text, lines[i - 1], lines[i]):
+            end = lines[i - 1].end
+            break
+    return lines[next_steps_index].start, end
+
+
+def _is_top_next_steps_nav_heading(
+    line: _Line,
+    *,
+    nav_span: tuple[int, int] | None,
+) -> bool:
+    if nav_span is None:
+        return False
+    start, end = nav_span
+    return start <= line.start <= end
 
 
 def _trim_span(text: str, start: int, end: int) -> tuple[int, int]:
@@ -142,7 +192,13 @@ def _sections_for(doc: Document) -> list[_Section]:
         return []
 
     lines = _iter_lines(text)
-    headings = [line for line in lines if _is_heading(line.text)]
+    nav_span = _top_next_steps_nav_span(text, lines, doc)
+    headings = [
+        line
+        for line in lines
+        if _is_heading(line.text)
+        and not _is_top_next_steps_nav_heading(line, nav_span=nav_span)
+    ]
     if not headings:
         section = _make_section(
             index=0,

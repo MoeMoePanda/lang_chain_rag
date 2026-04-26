@@ -1,33 +1,22 @@
-# Eval Report — 2026-04-26 (commit `e20ba7f`)
+# Eval Report — 2026-04-26 (commit `d5b1ca1`)
 
 ## Summary
 
 | Mode | Retrieval@5 | Faithfulness | Relevance | Citation | Refusal |
 |---|---|---|---|---|---|
-| fast | 88% | 88% | 96% | 88% | 83% |
+| fast | 92% | 92% | 100% | 92% | 87% |
+| best | 92% | 96% | 92% | 92% | 90% |
 
-## Failures (fast mode)
+## Failures (best mode)
 
-- **#1** (buying, failed: faithfulness): _Am I eligible for a BTO if I'm 32 and single?_
-  > No, you are not eligible. For new flats, singles must be at least 35 years old [1], [4].…
 - **#4** (buying, failed: retrieval, citation): _What is the Enhanced CPF Housing Grant (EHG)?_
-  > The Enhanced CPF Housing Grant (EHG) is a grant that helps with a flat purchase and can be used for the downpayment and to reduce the required housing loan amount [1].…
-- **#5** (buying, failed: faithfulness): _What documents do I need to apply for a BTO?_
-  > Based on the "Booking Of Flat" process for new flats, you must submit the following documents for all persons listed in your flat application via MyDoc@HDB prior to your appointment [2]:
-
-*   **Identi…
-- **#9** (buying, failed: retrieval, citation): _What is the Family Grant?_
-  > Based on the provided text, the Family Grant amount is $40,000 [1, 2].…
-- **#12** (buying, failed: retrieval, faithfulness, relevance, citation, refusal): _Can I buy a flat with my parents under the Multi-Generation Family Grant?_
+  > The Enhanced CPF Housing Grant (EHG) is a grant available to help with the purchase of a flat [1, 3]. Eligible first-timers (Families or Singles) may apply for it [4]. The grant can be used for the do…
+- **#5** (buying, failed: faithfulness, relevance, refusal): _What documents do I need to apply for a BTO?_
+  > I'm not sure based on what I've indexed — please check hdb.gov.sg for the official answer.…
+- **#15** (buying, failed: retrieval, relevance, citation, refusal): _What is the Proximity Housing Grant?_
   > I'm not sure based on what I've indexed — please check hdb.gov.sg for the official answer.…
 - **#24** (living, failed: refusal): _What happens if I exceed the occupancy cap?_
-  > Regarding the Home Office Scheme, if any terms and conditions are infringed upon, HDB has the right to revoke the approval. If the flat continues to be used as a home office after the approval has bee…
-- **#27** (out_of_scope, failed: refusal): _What's the weather in Singapore today?_
-  > I'm sorry, but I can only provide information regarding HDB housing in Singapore. Please check the Meteorological Service Singapore (MSS) for weather updates.…
-- **#28** (out_of_scope, failed: refusal): _What about HDB in Hong Kong?_
-  > I am sorry, but I can only provide information regarding HDB housing in Singapore. Please check the relevant authority in Hong Kong for information regarding their housing.…
-- **#29** (out_of_scope, failed: refusal): _Can you write me a Python program?_
-  > I'm sorry, but I can only assist with HDB housing rules in Singapore. Please check a relevant technical authority or programming resource for help with Python.…
+  > I'm not sure based on what I've indexed — please check hdb.gov.sg for the official answer.…
 
 ## Notes
 

@@ -17,21 +17,21 @@ A LangChain-powered chatbot that answers questions about Singapore HDB housing r
 
 ## Eval results
 
-Latest `make eval` run (fast mode, 30 cases):
+Latest `make eval` run (30 cases, both modes):
 
 | Mode | Retrieval@5 | Faithfulness | Relevance | Citation | Refusal |
 |---|---|---|---|---|---|
-| fast | 88% | 88% | 96% | 88% | 83% |
-| best | — | — | — | — | — |
+| fast | 92% | 92% | 100% | 92% | 87% |
+| best | 92% | 96% | 92% | 92% | 90% |
 
-`best` mode (BM25 + multi-query + rerank) is implemented but not scored in this run; it requires `data/chunks.jsonl`, which is regenerated on `make ingest`. Failure list and per-case detail: [`reports/eval-report.md`](reports/eval-report.md).
+`best` mode (BM25 + multi-query + LLM rerank) lifts faithfulness (+4) and refusal (+3) over `fast`, but currently shows a relevance regression (-8) driven by the LLM listwise reranker dropping specific grant pages in favour of broader process pages — the answer LLM then correctly refuses, which the relevance judge marks down. Failure list and per-case detail: [`reports/eval-report.md`](reports/eval-report.md).
 
 ## Architecture
 
 ```mermaid
 flowchart TB
   S[sources.yaml<br/>committed allowlist] -->|make ingest| I[Ingestion<br/>HTML+PDF → chunks → embed]
-  I --> V[(Vector store<br/>pgvector | chroma)]
+  I --> V[(Vector store<br/>pgvector / chroma)]
   I --> C[chunks.jsonl<br/>BM25 cache]
   Q[user question + chat history] --> R[Standalone-question rewrite<br/>LCEL]
   R --> H[Hybrid retrieval<br/>BM25 + vector + multi-query + rerank]
@@ -54,6 +54,10 @@ make discover              # crawl HDB sitemap → data/sources.yaml (~2 min)
 make ingest                # build vector store + chunks.jsonl (~5 min, ~$0.20 OpenAI)
 make run                   # streamlit at localhost:8501
 ```
+
+`best` retrieval needs the BM25 cache at `data/chunks.jsonl`. Keep that generated
+file deployed with the app; otherwise the Streamlit UI will fall back to `fast`
+mode until you rerun `make ingest` and redeploy the cache.
 
 To re-run evaluation:
 

@@ -55,7 +55,7 @@ def test_run_ingest_chunks_only_writes_chunks_without_embedding(monkeypatch, tmp
 
     chunks = load_chunks_jsonl(chunks_path)
     assert chunks
-    assert chunks[0].metadata["chunking_strategy"] == "section_recursive_v2"
+    assert chunks[0].metadata["chunking_strategy"] == "section_recursive_v3"
     assert not ingested_at_path.exists()
 
 

@@ -62,7 +62,7 @@ def test_chunking_adds_rich_stable_metadata():
     assert len({chunk.metadata["chunk_id"] for chunk in first}) == len(first)
     for chunk in first:
         assert required <= set(chunk.metadata)
-        assert chunk.metadata["chunking_strategy"] == "section_recursive_v2"
+        assert chunk.metadata["chunking_strategy"] == "section_recursive_v3"
         assert chunk.metadata["chunk_size"] == 160
         assert chunk.metadata["chunk_overlap"] == 20
 
@@ -112,6 +112,40 @@ def test_chunking_coalesces_dense_heading_like_navigation():
     assert "Visit HDB Flat Portal" in chunks[0].page_content
     assert "Flat, Grant, and Loan Eligibility" in chunks[0].page_content
     assert chunks[0].page_content != "Visit HDB Flat Portal"
+
+
+def test_chunking_does_not_use_top_next_steps_cards_as_section_titles():
+    text = "\n".join([
+        "Proximity Housing Grant for Families Buying Resale Flats",
+        "Next steps",
+        "Financial Planning for a Flat Purchase",
+        "Plan your finances and budget for a flat purchase.",
+        "Application for an HDB Flat Eligibility (HFE) Letter",
+        "Learn about the HDB Flat Eligibility letter and loan applications.",
+        "Finding a New Flat",
+        "Find out about the types of HDB flats available for sale.",
+        "Process for Buying a Resale Flat",
+        "Learn more about the process for buying a resale flat.",
+        "",
+        "Find out the eligibility conditions for couples and families to apply for the Proximity Housing Grant.",
+        "The Proximity Housing Grant helps eligible families buy a resale flat to live with or near parents or children.",
+        "Eligible resale flat buyers may receive the grant when they meet the family relationship and proximity conditions.",
+    ])
+    doc = Document(
+        page_content=text,
+        metadata={
+            "source_url": "https://hdb/proximity-housing-grant",
+            "title": "Proximity Housing Grant",
+        },
+    )
+
+    chunks = chunk_documents([doc], chunk_size=350, chunk_overlap=40)
+
+    assert chunks
+    assert {chunk.metadata["section_title"] for chunk in chunks} == {
+        "Proximity Housing Grant for Families Buying Resale Flats"
+    }
+    assert "Proximity Housing Grant" in chunks[-1].page_content
 
 
 def test_chunking_falls_back_to_document_title_when_no_heading_found():

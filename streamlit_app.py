@@ -48,14 +48,22 @@ def _chain(mode: str):
 
 
 # --- Sidebar ---
+chunk_cache_available = config.CHUNKS_JSONL.exists()
+retrieval_modes = ["best", "fast"] if chunk_cache_available else ["fast"]
+
 with st.sidebar:
     st.header("Settings")
     mode = st.radio(
         "Retrieval mode",
-        ["best", "fast"],
+        retrieval_modes,
         index=0,
         help="best = hybrid + multi-query + rerank. fast = vector only.",
     )
+    if not chunk_cache_available:
+        st.warning(
+            "Best mode unavailable because `data/chunks.jsonl` is missing. "
+            "Run `make ingest` and deploy the generated cache."
+        )
     st.divider()
     st.caption(f"Answer LLM: `{config.ANSWER_MODEL}`")
     st.caption(f"Fast LLM:   `{config.FAST_MODEL}`")
