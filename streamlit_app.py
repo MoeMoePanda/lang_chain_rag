@@ -1,7 +1,19 @@
 """Streamlit UI for the HDB RAG chatbot."""
 from __future__ import annotations
 
+import os
+
 import streamlit as st
+
+# Streamlit Cloud puts deploy-time secrets into st.secrets (TOML), not os.environ.
+# Bridge them into os.environ before importing config, which reads via os.getenv.
+# setdefault keeps local dev (.env via python-dotenv) untouched.
+try:
+    for _k, _v in st.secrets.items():
+        os.environ.setdefault(_k, str(_v))
+except Exception:
+    pass  # No secrets.toml locally — fall back to .env
+
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
