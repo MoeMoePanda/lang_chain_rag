@@ -83,7 +83,7 @@ ingested_at = (
 st.warning(
     f"⚠️ **Informational only.** Verify on [hdb.gov.sg](https://www.hdb.gov.sg) "
     f"before any decisions. Knowledge last indexed: `{ingested_at}` · "
-    f"Scope: Buying + Living rules."
+    f"Scope: Buying + Selling + Living rules."
 )
 
 
@@ -109,7 +109,7 @@ for msg in st.session_state.messages:
 
 
 # --- Input ---
-prompt = st.chat_input("Ask about HDB buying or living rules…")
+prompt = st.chat_input("Ask about HDB buying, selling, or living rules…")
 if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):

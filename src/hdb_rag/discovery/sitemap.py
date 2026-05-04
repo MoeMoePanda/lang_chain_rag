@@ -22,6 +22,8 @@ def _categorize(url: str) -> str:
     path = urlparse(url).path
     if "/buying-a-flat/" in path:
         return "buying"
+    if "/selling-a-flat/" in path:
+        return "selling"
     if "/managing-my-home/" in path or "/renting-a-flat/" in path:
         return "living"
     return "uncategorized"

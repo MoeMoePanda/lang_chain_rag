@@ -1,9 +1,9 @@
 """CLI: fetch HDB sitemap.xml → write data/sources.yaml.
 
 The site's sitemap.xml is authoritative (1,332 URLs). We filter by scope path
-(buying-a-flat, managing-my-home), drop junk, and emit a sorted YAML allowlist
-that subsequent ingestion runs against. The committed YAML is the auditable
-source of truth for what the bot has been taught.
+(buying-a-flat, selling-a-flat, managing-my-home), drop junk, and emit a sorted
+YAML allowlist that subsequent ingestion runs against. The committed YAML is
+the auditable source of truth for what the bot has been taught.
 """
 from __future__ import annotations
 

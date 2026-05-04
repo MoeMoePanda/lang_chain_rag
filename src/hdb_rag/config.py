@@ -35,6 +35,7 @@ DISCOVERY = {
     "sitemap_url": "https://www.hdb.gov.sg/sitemap.xml",
     "scope_paths": [
         "/buying-a-flat/",
+        "/selling-a-flat/",
         "/managing-my-home/",
     ],
     "user_agent": (
